@@ -1,0 +1,10 @@
+{
+    "pluginVersion": 1,
+    "name": "simplechat",
+    "myVersion": "1.0.0.0",
+    "shortDescription": "A simple chat plugin for NXT intended for developing of other chat plugins.",
+    "infoUrl": "https://github.com/someuser/simplechat",
+    "startPage": "p_simplechat",
+    "nrsVersion": "1.8.1",
+    "deactivated": false
+}

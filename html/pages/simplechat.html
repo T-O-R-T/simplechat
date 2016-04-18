@@ -1,0 +1,25 @@
+<link rel="stylesheet" href="/plugins/common_components/bower_components/font-awesome/css/font-awesome.css">
+<link rel="stylesheet" href="/plugins/common_components/bower_components/bootstrap/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="/plugins/simplechat/css/themes.css">
+<link rel="stylesheet" href="/plugins/simplechat/css/style.css">
+<script src="/plugins/common_components/bower_components/lodash/dist/lodash.js"></script>
+<script src="/plugins/common_components/bower_components/jquery/dist/jquery.js"></script>
+<script src="/plugins/common_components/bower_components/angular/angular.js"></script>
+<script src="/plugins/simplechat/js/index.js"></script>
+<script src="/plugins/simplechat/js/templates.js"></script>
+<script src="/plugins/simplechat/js/app.js"></script>
+
+<div id="p_simplechat_page" ng-app="simpleChatApp" ng-controller="Shell as vm">
+    <div class="chat-container">
+        <valortech-simple-chat
+                messages="vm.messages"
+                username="vm.username"
+                input-placeholder-text="You can write here"
+                submit-button-text="Send your message"
+                title="Simple Chat"
+                theme="material"
+                submit-function="vm.sendMessage"
+                visible="true">
+        </valortech-simple-chat>
+    </div>
+</div>
