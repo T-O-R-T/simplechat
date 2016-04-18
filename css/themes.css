@@ -24,12 +24,12 @@
 }
 
 .chat-th-material .chat-top-bar {
-  background: darkblue;
-  color: blue;
+  background: blue;
+  color: #fff;
 }
 
 .chat-th-material .chat-msg-receive .chat-msg-author {
-  color: darkblue;
+  color: blue;
 }
 
 .chat-th-material .chat-input:focus {
@@ -39,11 +39,11 @@
 }
 
 .chat-th-material .chat-submit-button {
-  background: darkblue;
+  background: blue;
   color: #fff;
 }
 
 .chat-th-material .chat-submit-button:focus {
-  border-color: darkblue;
+  border-color: blue;
   outline: 0 none;
 }

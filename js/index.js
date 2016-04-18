@@ -2,7 +2,7 @@
 	'use strict';
 
 	angular.module('irontec.simpleChat', []);
-	angular.module('irontec.simpleChat').directive('valortechSimpleChat', ['$timeout', SimpleChat]);
+	angular.module('irontec.simpleChat').directive('irontecSimpleChat', ['$timeout', SimpleChat]);
 
 	function SimpleChat($timeout) {
 		var directive = {
